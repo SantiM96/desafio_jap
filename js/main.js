@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // ----- code according to each page ----- //
+    console.log(currentlyUrl)
 
 
     // global-start
@@ -145,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // Index-start
-    if (currentlyUrl == "index.html") {
+    if (currentlyUrl == "index.html" || currentlyUrl == "") {
         // check session (localStorage) and redirect to login if there is no
         const userData = sessionCheck()
 
