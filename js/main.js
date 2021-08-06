@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // ----- code according to each page ----- //
-    console.log(currentlyUrl)
 
 
     // global-start
