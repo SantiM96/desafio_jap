@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+    img {
+        background-size: cover !important;
+        background-position: center center !important;
+        flex: 1;
+    }
+}
+
+.container-log {
+    height: 100vh;
+}
+.height {
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .height {
+        height: 180px;
+    }
+}
